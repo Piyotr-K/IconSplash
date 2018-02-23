@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3946B1683D6177E79AF6515C /* Pods_IconSplash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910DF7F10C756D0A8E02F4E8 /* Pods_IconSplash.framework */; };
 		BA5A8CE6203E481400A00446 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5A8CE5203E481400A00446 /* AppDelegate.swift */; };
 		BA5A8CE8203E481400A00446 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5A8CE7203E481400A00446 /* ViewController.swift */; };
 		BA5A8CEB203E481400A00446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5A8CE9203E481400A00446 /* Main.storyboard */; };
 		BA5A8CED203E481400A00446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA5A8CEC203E481400A00446 /* Assets.xcassets */; };
 		BA5A8CF0203E481400A00446 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5A8CEE203E481400A00446 /* LaunchScreen.storyboard */; };
+		BA5A8CF8203E4CA600A00446 /* Loading.png in Resources */ = {isa = PBXBuildFile; fileRef = BA5A8CF7203E4CA600A00446 /* Loading.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1CFEBF6D206EA47E9C688D43 /* Pods-IconSplash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IconSplash.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IconSplash/Pods-IconSplash.debug.xcconfig"; sourceTree = "<group>"; };
+		910DF7F10C756D0A8E02F4E8 /* Pods_IconSplash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IconSplash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA5A8CE2203E481400A00446 /* IconSplash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconSplash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA5A8CE5203E481400A00446 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA5A8CE7203E481400A00446 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		BA5A8CEC203E481400A00446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA5A8CEF203E481400A00446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA5A8CF1203E481400A00446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA5A8CF7203E4CA600A00446 /* Loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Loading.png; sourceTree = "<group>"; };
+		D11269EC50B18FF97CBE1976 /* Pods-IconSplash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IconSplash.release.xcconfig"; path = "Pods/Target Support Files/Pods-IconSplash/Pods-IconSplash.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3946B1683D6177E79AF6515C /* Pods_IconSplash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC2E7565F6F83FBA73782AA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CFEBF6D206EA47E9C688D43 /* Pods-IconSplash.debug.xcconfig */,
+				D11269EC50B18FF97CBE1976 /* Pods-IconSplash.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BA5A8CD9203E481400A00446 = {
 			isa = PBXGroup;
 			children = (
 				BA5A8CE4203E481400A00446 /* IconSplash */,
 				BA5A8CE3203E481400A00446 /* Products */,
+				AC2E7565F6F83FBA73782AA9 /* Pods */,
+				C514087B61814AC4739829E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +78,25 @@
 				BA5A8CEC203E481400A00446 /* Assets.xcassets */,
 				BA5A8CEE203E481400A00446 /* LaunchScreen.storyboard */,
 				BA5A8CF1203E481400A00446 /* Info.plist */,
+				BA5A8CF9203E4D5E00A00446 /* Images */,
 			);
 			path = IconSplash;
+			sourceTree = "<group>";
+		};
+		BA5A8CF9203E4D5E00A00446 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BA5A8CF7203E4CA600A00446 /* Loading.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C514087B61814AC4739829E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				910DF7F10C756D0A8E02F4E8 /* Pods_IconSplash.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +106,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA5A8CF4203E481400A00446 /* Build configuration list for PBXNativeTarget "IconSplash" */;
 			buildPhases = (
+				513A67EDC829933EE27687C4 /* [CP] Check Pods Manifest.lock */,
 				BA5A8CDE203E481400A00446 /* Sources */,
 				BA5A8CDF203E481400A00446 /* Frameworks */,
 				BA5A8CE0203E481400A00446 /* Resources */,
+				569714A5104A682D00620484 /* [CP] Embed Pods Frameworks */,
+				BEF324F13265BBD71C6179DC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA5A8CF8203E4CA600A00446 /* Loading.png in Resources */,
 				BA5A8CF0203E481400A00446 /* LaunchScreen.storyboard in Resources */,
 				BA5A8CED203E481400A00446 /* Assets.xcassets in Resources */,
 				BA5A8CEB203E481400A00446 /* Main.storyboard in Resources */,
@@ -130,6 +169,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		513A67EDC829933EE27687C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IconSplash-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		569714A5104A682D00620484 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IconSplash/Pods-IconSplash-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TraceLog/TraceLog.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TraceLog.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IconSplash/Pods-IconSplash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEF324F13265BBD71C6179DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IconSplash/Pods-IconSplash-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BA5A8CDE203E481400A00446 /* Sources */ = {
@@ -272,6 +365,7 @@
 		};
 		BA5A8CF5203E481400A00446 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CFEBF6D206EA47E9C688D43 /* Pods-IconSplash.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +381,7 @@
 		};
 		BA5A8CF6203E481400A00446 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D11269EC50B18FF97CBE1976 /* Pods-IconSplash.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

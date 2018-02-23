@@ -1,0 +1,6 @@
+framework module Pods_IconSplash {
+  umbrella header "Pods-IconSplash-umbrella.h"
+
+  export *
+  module * { export * }
+}
